@@ -16,8 +16,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "ECommerce App",
-  description: "Modern ecommerce application with authentication",
+  title: "Premium Firecracker Supplier - Licensed Green Crackers",
+  description: "PESO approved green firecracker products. Enquiry-based sales for licensed dealers. Free quotations & compliance support.",
 };
 
 export default function RootLayout({
