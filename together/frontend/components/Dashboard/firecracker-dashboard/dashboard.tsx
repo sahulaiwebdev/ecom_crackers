@@ -30,6 +30,7 @@ import {
   Shield,
 } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import { ActivityFeed } from './activity-feed';
 
 // Sales Data
 const salesData = [
@@ -416,9 +417,17 @@ export function FirecrackerDashboard() {
           </CardContent>
         </Card>
 
+      </div>
+
+      {/* Activity Feed Section */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:col-span-2">
+          <ActivityFeed />
+        </div>
+
         <Card>
           <CardHeader>
-            <CardTitle>Today's Activity</CardTitle>
+            <CardTitle>Today's Quick Stats</CardTitle>
             <CardDescription>Real-time business metrics</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
